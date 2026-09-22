@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "codearts-req": {
+      "command": "node",
+      "args": ["${WORKSPACE}/codearts-req-mcp-server/server.mjs"],
+      "env": {
+        "CODEARTS_REQ_ENDPOINT": "https://projectman.cn-north-4.myhuaweicloud.com",
+        "CODEARTS_REQ_AK": "${CODEARTS_REQ_AK}",
+        "CODEARTS_REQ_SK": "${CODEARTS_REQ_SK}",
+        "CODEARTS_REQ_REGION": "cn-north-4"
+      }
+    }
+  }
+}
